@@ -1,0 +1,133 @@
+import type { CourseModule } from './types'
+
+export const module6: CourseModule = {
+  id: 'masterclass',
+  number: '06',
+  title: '187N Masterclass — Brand tot klant',
+  tagline: '113 lessen: van nul naar een draaiend AI-bureau.',
+  why: 'De volledige 187N Codex & Hermes masterclass. Van brand bouwen tot agents op autopilot.',
+  lessons: [
+    {
+      id: 'mc1',
+      title: 'Start: brand, Codex en Hermes (les 1-10)',
+      minutes: 45,
+      summary: 'Van nul naar een werkend project: Codex installeren, Second Brain opzetten, eerste build sturen.',
+      video: { title: 'OpenAI Codex Getting Started', youtubeId: 'sJK8T5YA6M0', minutes: 12, why: 'Codex is de engine achter de masterclass.' },
+      body: [
+        { type: 'p', text: 'De eerste 10 lessen leggen de fundering. Je installeert Codex Desktop en leert grote builds sturen.' },
+        { type: 'h', text: 'Wat je bouwt in dit blok' },
+        { type: 'ul', items: ['Les 1: Je brand kiezen.', 'Les 2: Codex Desktop installeren.', 'Les 4: Codex jouw business leren.', 'Les 5: Een grote build sturen.', 'Les 7: Hermes installeren.', 'Les 8: Second Brain bouwen.', 'Les 9: Librarian-agent activeren.'] },
+        { type: 'callout', kind: 'practice', title: 'Werkwijze', text: 'Open de masterclass-map als project in Codex. Typ "Start de masterclass" om coach LIO te activeren.' },
+        { type: 'task', title: 'Doe dit nu', text: 'Open de masterclass map in Codex. Typ "Start de masterclass" en volg les 1 t/m 4.' },
+      ],
+      checkpoint: [
+        { id: 'mc1q1', prompt: 'Wat is het doel van je Second Brain?', options: [{ id: 'a', text: 'Notities in Notion.' }, { id: 'b', text: 'Codex en Hermes dezelfde projectkennis geven zodat ze consistent doorwerken.' }, { id: 'c', text: 'Backups maken.' }, { id: 'd', text: 'Emails archiveren.' }], correct: 'b', explanation: 'Het Second Brain zorgt dat alle tools vanuit dezelfde context werken.' },
+        { id: 'mc1q2', prompt: 'Wat doe je bij een grote build (les 5)?', options: [{ id: 'a', text: 'Alles in een lange prompt.' }, { id: 'b', text: 'Context meegeven via je projectmap zodat Codex de bestaande staat kent.' }, { id: 'c', text: 'Project herstarten.' }, { id: 'd', text: 'Oude code verwijderen.' }], correct: 'b', explanation: 'Codex leest bestaande bestanden — jij hoeft niks opnieuw uit te leggen.' },
+      ],
+    },
+    {
+      id: 'mc2',
+      title: 'Research, Second Brain en aanbod (les 11-20)',
+      minutes: 50,
+      summary: 'Waarom mensen kopen, concurrentieonderzoek met Atria, een aanbod dat klopt.',
+      video: { title: 'How to Research Your Target Market', youtubeId: 'W_NxEKXGNqE', minutes: 14, why: 'Marktonderzoek is de basis van elk aanbod.' },
+      body: [
+        { type: 'p', text: 'Blok 2: bewijs verzamelen. Je onderzoekt waarom mensen kopen en bouwt een aanbod met een duidelijke belofte.' },
+        { type: 'ul', items: ['Les 11: Waarom mensen kopen — output: research/markt.md.', 'Les 13: Atria advertenties van concurrenten verzamelen.', 'Les 15: Aanbod maken — offerbrief template.', 'Les 17: Testbare angles uit concurrentieonderzoek.', 'Les 18: Merkverhaal schrijven.'] },
+        { type: 'callout', kind: 'info', title: 'Atria', text: 'Atria verzamelt advertenties van concurrenten. Zo hoef je niet meer te gissen wat werkt in jouw niche.' },
+        { type: 'code', lang: 'text', code: 'Offerbrief (les 15):\n1. Doelgroep\n2. Probleem\n3. Belofte\n4. Bewijs\n5. Prijs' },
+        { type: 'task', title: 'Doe dit nu', text: 'Typ "Start les 11". Sla je offerbrief op als brand/offerbrief.md.' },
+      ],
+      checkpoint: [
+        { id: 'mc2q1', prompt: 'Wat bewaar je na les 11?', options: [{ id: 'a', text: 'Een logo.' }, { id: 'b', text: 'research/markt.md met bronnen.' }, { id: 'c', text: 'Een factuur.' }, { id: 'd', text: 'Een social post.' }], correct: 'b', explanation: 'Elke les produceert een concreet bestand.' },
+        { id: 'mc2q2', prompt: 'Waarom Atria in les 13?', options: [{ id: 'a', text: 'Zelf advertenties maken.' }, { id: 'b', text: 'Bestaande ads van concurrenten verzamelen en analyseren.' }, { id: 'c', text: 'Website hosten.' }, { id: 'd', text: 'Emails sturen.' }], correct: 'b', explanation: 'Atria geeft je een bibliotheek van wat al werkt.' },
+      ],
+    },
+    {
+      id: 'mc3',
+      title: 'Store, design en Shopify (les 21-34)',
+      minutes: 55,
+      summary: 'Webshop bouwen met Codex: van design-referenties tot live Shopify-store.',
+      video: { title: 'Build a Shopify Store with AI', youtubeId: 'kHkQnuYzwoo', minutes: 16, why: 'Hoe AI en Shopify Liquid samenwerken.' },
+      body: [
+        { type: 'p', text: 'Blok 3: design-referenties kiezen, storefront bouwen en naar Shopify Liquid converteren.' },
+        { type: 'ul', items: ['Les 22: Brandbook maken.', 'Les 23: Design-referenties kiezen.', 'Les 24: Design vastleggen in context/DESIGN.md.', 'Les 26: Complete storefront bouwen.', 'Les 29: Premium productpagina met scrollanimatie.', 'Les 30: Website live zetten.', 'Les 31: Ontwerp naar Shopify Liquid.', 'Les 34: Store verbeteren op basis van data.'] },
+        { type: 'callout', kind: 'nlbe', title: 'Shopify NL/BE', text: 'Zorg voor iDEAL (NL) of Bancontact (BE). Codex bouwt de integratie, de account-koppeling doe je in Shopify Payments.' },
+        { type: 'task', title: 'Doe dit nu', text: 'Typ "Start les 23". Verzamel 5 reference-stores. Sla op als context/DESIGN.md.' },
+      ],
+      checkpoint: [
+        { id: 'mc3q1', prompt: 'Waarom is context/DESIGN.md zo belangrijk?', options: [{ id: 'a', text: 'Verplicht voor Shopify.' }, { id: 'b', text: 'Codex laadt het bij elke build zodat het design consistent blijft.' }, { id: 'c', text: 'Het vervangt Figma.' }, { id: 'd', text: 'Hermes heeft het nodig.' }], correct: 'b', explanation: 'Je DESIGN.md is je designgeheugen voor alle volgende builds.' },
+        { id: 'mc3q2', prompt: 'Wat doe je in les 34?', options: [{ id: 'a', text: 'Het design weggooien.' }, { id: 'b', text: 'A/B-testen opzetten op basis van echte store-data.' }, { id: 'c', text: 'Nieuwe producten toevoegen.' }, { id: 'd', text: 'Domein veranderen.' }], correct: 'b', explanation: 'Data-gedreven verbeteren — wat er echt gebeurt in de store bepaalt wat je test.' },
+      ],
+    },
+    {
+      id: 'mc4',
+      title: 'Content, video en advertenties (les 35-55)',
+      minutes: 60,
+      summary: 'Content-machine: video-workflows, advertentiebatches, e-mailflows en campagnes.',
+      video: { title: 'Meta Ads Creative Strategy', youtubeId: 'T7OtDfO_LjY', minutes: 18, why: 'De strategie achter les 45-55.' },
+      body: [
+        { type: 'p', text: 'Blok 4: de content-machine. Video-workflows, advertentiebatches en volledige e-mailflows.' },
+        { type: 'ul', items: ['Les 35-40: Video-workflow van opname tot levering.', 'Les 42: Contentbatch maken.', 'Les 45: Van Atria-research naar advertentiebatch.', 'Les 46: Drie uitvoeringen van een campagneconcept.', 'Les 49: Alle tools verbinden via Composio.', 'Les 50: Vier e-mailflows bouwen.', 'Les 53: Ochtendbriefing automatiseren.', 'Les 55: Media Buyer laat volgende tests voorstellen.'] },
+        { type: 'callout', kind: 'practice', title: 'Advertentie-formule (les 46)', text: 'Drie hooks: probleem-angle + resultaat-angle + social proof-angle. Zo test je wat resoneert.' },
+        { type: 'task', title: 'Doe dit nu', text: 'Typ "Start les 45". Kies een angle uit je Atria-bibliotheek. Laat Codex drie ad-varianten produceren.' },
+      ],
+      checkpoint: [
+        { id: 'mc4q1', prompt: 'Doel van les 46 (drie uitvoeringen)?', options: [{ id: 'a', text: 'Meer volume.' }, { id: 'b', text: 'Drie testbare hooks van hetzelfde concept zodat je kunt meten wat werkt.' }, { id: 'c', text: 'Drie producten.' }, { id: 'd', text: 'Kosten verlagen.' }], correct: 'b', explanation: 'Eén concept, drie angles — zo isoleer je de variabele.' },
+        { id: 'mc4q2', prompt: 'Wat doet Composio (les 49)?', options: [{ id: 'a', text: 'Video bewerken.' }, { id: 'b', text: 'Alle tools verbinden zodat data en acties automatisch doorstromen.' }, { id: 'c', text: 'Website hosten.' }, { id: 'd', text: 'Facturen.' }], correct: 'b', explanation: 'Composio is de koppelingslaag tussen al je tools.' },
+      ],
+    },
+    {
+      id: 'mc5',
+      title: 'Klanten vinden en deals sluiten (les 64-88)',
+      minutes: 60,
+      summary: 'Skills als product verpakken, bedrijven vinden, demo bouwen en deals sluiten.',
+      video: { title: 'How to sell AI services to local businesses', youtubeId: 'kYlFjA3hDIc', minutes: 20, why: 'De sales-mindset voor het hele blok.' },
+      body: [
+        { type: 'p', text: 'Blok 5: sales. Je verpakt je werk als product, vindt bedrijven, bouwt een demo die laat beslissen, en sluit de deal.' },
+        { type: 'ul', items: ['Les 64: Skills als product verkopen.', 'Les 68: Kiezen welk werk jij verkoopt.', 'Les 69: Klantgesprek analyseren — output: call-analyse.md.', 'Les 72: Demo en voorstel waar de klant op beslist.', 'Les 73: Prijs op basis van waarde.', 'Les 74: Bedrijven vinden — output: sales/prospects.csv.', 'Les 77: Demo als gespreksopener.', 'Les 82: Supportbot bouwen met bedrijfskennis.', 'Les 87: Opleveren zodat de klant ermee verder kan.'] },
+        { type: 'callout', kind: 'nlbe', title: 'Prospecting NL/BE', text: 'KvK-data als startpunt. Combineer met LinkedIn en Meta Ad Library voor wie al adverteert — dat zijn de warmste leads.' },
+        { type: 'code', lang: 'text', code: 'Prijsformule (les 73):\nWat kost het probleem de klant per maand?\nNeem 20-30% van de besparing als jouw prijs.' },
+        { type: 'task', title: 'Doe dit nu', text: 'Typ "Start les 74". Laat Codex een prospects.csv genereren met 10 bedrijven, probleem en openingszin.' },
+      ],
+      checkpoint: [
+        { id: 'mc5q1', prompt: 'Output van les 74?', options: [{ id: 'a', text: 'Nieuwe website.' }, { id: 'b', text: 'sales/prospects.csv met bedrijven en hun problemen.' }, { id: 'c', text: 'Advertentie.' }, { id: 'd', text: 'Brandbook.' }], correct: 'b', explanation: 'Elke les levert een bestand. prospects.csv is je concrete saleslijst.' },
+        { id: 'mc5q2', prompt: 'Wat doe je in les 77?', options: [{ id: 'a', text: 'Lange pitch e-mail.' }, { id: 'b', text: 'Werkende demo van hun probleem als gespreksopener.' }, { id: 'c', text: 'Tarieven noemen.' }, { id: 'd', text: 'Vergadering vragen.' }], correct: 'b', explanation: 'Een demo die hun probleem oplost is de sterkste opener.' },
+      ],
+    },
+    {
+      id: 'mc6',
+      title: 'Agents, autopilot en schalen (les 89-113)',
+      minutes: 65,
+      summary: '15 agentprofielen inzetten, workflows automatiseren, alles op autopilot.',
+      video: { title: 'AI Agents Tutorial — Autonomous Workflows', youtubeId: 'QL63JqNrE2k', minutes: 22, why: 'Technische basis voor multi-agent workflows.' },
+      body: [
+        { type: 'p', text: 'Het laatste blok: 15 agentprofielen inzetten, laten samenwerken, en systemen bouwen die doordraaien zonder jou.' },
+        { type: 'ul', items: ['Les 89: Jouw 15 agentprofielen activeren.', 'Les 90: Agents doorwerken met dezelfde projectkennis.', 'Les 93: Complete campagne door agent-team laten produceren.', 'Les 95: Agent leren van jouw correcties.', 'Les 97: Terugkerend werk op autopilot.', 'Les 98: Workflows die omgaan met fouten.', 'Les 100: Opdracht geven via telefoon.', 'Les 113: Repository gericht laten onderzoeken.'] },
+        { type: 'callout', kind: 'info', title: 'De 15 agentprofielen', text: 'Researcher · Brand Strategist · Content Maker · Media Buyer · SEO Agent · Video Director · Email Marketer · Support Bot · Sales Agent · Librarian · Skill Maker · Code Builder · QA Agent · Operations Agent · Finance Agent.' },
+        { type: 'callout', kind: 'practice', title: 'Autopilot checklist (les 97)', text: '1. Welke taak herhaalt zich?\n2. Welke agent doet het?\n3. Welke trigger?\n4. Waar gaat output naartoe?\n5. Wat bij een fout?' },
+        { type: 'task', title: 'Doe dit nu', text: 'Typ "Start les 89". Kies 3 agentprofielen. Schrijf voor elk: naam, taak, wanneer het draait, output.' },
+      ],
+      checkpoint: [
+        { id: 'mc6q1', prompt: 'Doel van les 97?', options: [{ id: 'a', text: 'Agents uitschakelen.' }, { id: 'b', text: 'Taken die wekelijks hetzelfde zijn automatisch laten draaien.' }, { id: 'c', text: 'Nieuwe agents kopen.' }, { id: 'd', text: 'Shopify resetten.' }], correct: 'b', explanation: 'Autopilot: eenmalig beslissen, systeem voert daarna zelfstandig uit.' },
+        { id: 'mc6q2', prompt: 'Wat leert les 95?', options: [{ id: 'a', text: 'Agent verwijderen.' }, { id: 'b', text: 'Feedback omzetten in een verbeterde skill zodat de agent beter wordt.' }, { id: 'c', text: 'API koppelen.' }, { id: 'd', text: 'Model fine-tunen.' }], correct: 'b', explanation: 'Elke correctie is een les. Les 95 maakt dat systematisch.' },
+      ],
+    },
+  ],
+  exam: {
+    id: 'exam-masterclass',
+    title: 'Module 6 toets',
+    minutes: 20,
+    passPercent: 70,
+    questions: [
+      { id: 'mce1', prompt: 'Eerste stap bij opstarten masterclass?', options: [{ id: 'a', text: 'Meteen les 50 beginnen.' }, { id: 'b', text: 'Cursusmap openen in Codex en "Start de masterclass" typen.' }, { id: 'c', text: 'YouTube video kijken.' }, { id: 'd', text: 'Shopify store aanmaken.' }], correct: 'b', explanation: 'Coach LIO activeert via dit commando.' },
+      { id: 'mce2', prompt: 'Waarvoor gebruik je Atria?', options: [{ id: 'a', text: 'Website bouwen.' }, { id: 'b', text: 'Advertenties van concurrenten systematisch verzamelen en analyseren.' }, { id: 'c', text: 'Emailmarketing.' }, { id: 'd', text: 'Video editing.' }], correct: 'b', explanation: 'Atria geeft je een advertentiebibliotheek van de concurrentie.' },
+      { id: 'mce3', prompt: 'Wat bewaart de masterclass in outputs/?', options: [{ id: 'a', text: 'Niks.' }, { id: 'b', text: 'Per les een concreet bestand zodat je later verder kunt.' }, { id: 'c', text: 'Alleen afbeeldingen.' }, { id: 'd', text: 'Alleen code.' }], correct: 'b', explanation: 'Elk les levert een bestand. Zo kun je altijd verdergaan.' },
+      { id: 'mce4', prompt: 'Wat zijn de 15 agentprofielen?', options: [{ id: 'a', text: 'Aparte betaalde tools.' }, { id: 'b', text: 'Kant-en-klare rollen (Researcher, Media Buyer etc.) voor specifieke taken.' }, { id: 'c', text: 'Shopify-templates.' }, { id: 'd', text: 'E-mailflows.' }], correct: 'b', explanation: 'Elk profiel heeft een eigen skill en doet een type werk goed.' },
+      { id: 'mce5', prompt: 'Hoe bepaal je prijs in les 73?', options: [{ id: 'a', text: 'Gokken.' }, { id: 'b', text: 'Berekenen wat het probleem de klant kost en 20-30% van de besparing nemen.' }, { id: 'c', text: 'Onder de concurrent gaan.' }, { id: 'd', text: 'Klant vragen wat hij betaalt.' }], correct: 'b', explanation: 'Waarde-gebaseerde prijs: tarief koppelen aan wat het de klant oplevert.' },
+      { id: 'mce6', prompt: 'Doel van les 100?', options: [{ id: 'a', text: 'Telefoon als tweede scherm.' }, { id: 'b', text: 'Agents aansturen en resultaten ontvangen zonder achter je computer te zitten.' }, { id: 'c', text: 'Notificaties uitschakelen.' }, { id: 'd', text: 'Shopify app gebruiken.' }], correct: 'b', explanation: 'Echte autopilot: opdracht geven onderweg, team levert het resultaat.' },
+      { id: 'mce7', prompt: 'Wat bouw je in les 82?', options: [{ id: 'a', text: 'Generieke chatbot.' }, { id: 'b', text: 'AI-supportbot gevoed met de kennis van het specifieke bedrijf.' }, { id: 'c', text: 'FAQ-pagina.' }, { id: 'd', text: 'E-mailtemplate.' }], correct: 'b', explanation: 'Specifiek voor die klant — producten, beleid, FAQ van dat bedrijf.' },
+      { id: 'mce8', prompt: 'Kern van de autopilot-aanpak (les 97)?', options: [{ id: 'a', text: 'Alles handmatig controleren.' }, { id: 'b', text: 'Eenmalig beslissen hoe het moet, systeem voert daarna zelfstandig uit.' }, { id: 'c', text: 'Meer mensen inhuren.' }, { id: 'd', text: 'Elke week nieuwe agents bouwen.' }], correct: 'b', explanation: 'Autopilot is een manier van werken. Jij beslist, het systeem voert uit.' },
+    ],
+  },
+}

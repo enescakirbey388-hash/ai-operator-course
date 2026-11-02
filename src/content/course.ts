@@ -4,12 +4,13 @@ import { module2 } from './m2-data'
 import { module3 } from './m3-code'
 import { module4 } from './m4-clients'
 import { module5 } from './m5-close'
+import { module6 } from './m6-masterclass'
 
 export const course: Course = {
   title: 'AI Operator',
   subtitle: 'Van nul naar betaalde klant — alles wat je echt nodig hebt',
   intro: 'Vijf modules. Examens. Praktijkopdrachten. Geen filler. Je leert scrapen, bouwen, analyseren, klanten vinden en deals sluiten — voor NL/BE-bedrijven die AI nog niet snappen maar er wel voor willen betalen.',
-  modules: [module1, module2, module3, module4, module5],
+  modules: [module1, module2, module3, module4, module5, module6],
   finalExam: {
     id: 'final',
     title: 'Eindexamen',
