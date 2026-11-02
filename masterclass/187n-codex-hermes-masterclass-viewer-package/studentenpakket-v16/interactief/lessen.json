@@ -1,0 +1,2828 @@
+{
+  "schema_version": 1,
+  "course": "187n-codex-hermes",
+  "version": "1.0.0",
+  "total": 113,
+  "lessons": [
+    {
+      "number": 1,
+      "code": "0.1",
+      "title": "We bouwen jouw brand. Van A tot Z.",
+      "group": "Start: je brand, Codex en Hermes",
+      "file": "lessen/001.md",
+      "steps": 5,
+      "dependencies": [],
+      "inputs": [
+        "voorbeelden/scoopfolk/START-HIER.md"
+      ],
+      "skills": [],
+      "execution": "Codex",
+      "output": "intro-demo.md",
+      "next": "0.2"
+    },
+    {
+      "number": 2,
+      "code": "0.2",
+      "title": "Codex installeren en jouw project openen",
+      "group": "Start: je brand, Codex en Hermes",
+      "file": "lessen/002.md",
+      "steps": 5,
+      "dependencies": [],
+      "inputs": [
+        "START-V16.md",
+        "werkkaarten/BRONNEN.md"
+      ],
+      "skills": [],
+      "execution": "Codex",
+      "output": "startkaart.md",
+      "next": "0.3"
+    },
+    {
+      "number": 3,
+      "code": "0.3",
+      "title": "Alles wat je krijgt meteen kunnen gebruiken",
+      "group": "Start: je brand, Codex en Hermes",
+      "file": "lessen/003.md",
+      "steps": 5,
+      "dependencies": [],
+      "inputs": [
+        "START-V16.md",
+        "werkplek-extra/scoopfolk-brand-actueel/brandbook.pdf"
+      ],
+      "skills": [],
+      "execution": "Codex",
+      "output": "project-index.md",
+      "next": "0.4"
+    },
+    {
+      "number": 4,
+      "code": "0.4",
+      "title": "Codex jouw business en jouw stem leren",
+      "group": "Start: je brand, Codex en Hermes",
+      "file": "lessen/004.md",
+      "steps": 7,
+      "dependencies": [
+        "0.3"
+      ],
+      "inputs": [
+        "AGENTS.md",
+        "context/bedrijf.md",
+        "context/merkstem.md"
+      ],
+      "skills": [
+        {
+          "name": "brand-workflow",
+          "path": "skills/brand-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "brand/homepage-hero.md",
+      "next": "0.5"
+    },
+    {
+      "number": 5,
+      "code": "0.5",
+      "title": "Een grote build sturen zonder alles opnieuw uit te leggen",
+      "group": "Start: je brand, Codex en Hermes",
+      "file": "lessen/005.md",
+      "steps": 5,
+      "dependencies": [
+        "0.4"
+      ],
+      "inputs": [
+        "context/bedrijf.md"
+      ],
+      "skills": [
+        {
+          "name": "brand-workflow",
+          "path": "skills/brand-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "brand/productpagina-opbouw.md",
+      "next": "0.6"
+    },
+    {
+      "number": 6,
+      "code": "0.6",
+      "title": "Van jouw idee naar een dikke eerste build",
+      "group": "Start: je brand, Codex en Hermes",
+      "file": "lessen/006.md",
+      "steps": 6,
+      "dependencies": [
+        "0.4"
+      ],
+      "inputs": [
+        "context/DESIGN.md",
+        "werkplek-extra/scoopfolk-brand-actueel/brandbook.pdf"
+      ],
+      "skills": [
+        {
+          "name": "website-workflow",
+          "path": "skills/website-workflow/SKILL.md"
+        },
+        {
+          "name": "design-review",
+          "path": "skills/design-review/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "storefront/eerste-preview/",
+      "next": "8.1"
+    },
+    {
+      "number": 7,
+      "code": "8.1",
+      "title": "Hermes installeren en je eerste projectopdracht uitvoeren",
+      "group": "Start: je brand, Codex en Hermes",
+      "file": "lessen/007.md",
+      "steps": 6,
+      "dependencies": [
+        "0.6"
+      ],
+      "inputs": [
+        "hermes/START.md",
+        "werkkaarten/BRONNEN.md",
+        "second-brain/START-HIER.md"
+      ],
+      "skills": [
+        {
+          "name": "content-workflow",
+          "path": "skills/content-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex of Hermes",
+      "output": "hermes-eerste-projectnotitie.md",
+      "next": "N01"
+    },
+    {
+      "number": 8,
+      "code": "N01",
+      "title": "Bouw jouw Second Brain met Hermes en Obsidian",
+      "group": "Start: je brand, Codex en Hermes",
+      "file": "lessen/008.md",
+      "steps": 5,
+      "dependencies": [
+        "8.1"
+      ],
+      "inputs": [
+        "second-brain/START-HIER.md",
+        "second-brain/vault/INDEX.md",
+        "second-brain/skills/librarian-inname/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "librarian-inname",
+          "path": "second-brain/skills/librarian-inname/SKILL.md"
+        }
+      ],
+      "execution": "Hermes",
+      "output": "second-brain-start.md",
+      "next": "N02"
+    },
+    {
+      "number": 9,
+      "code": "N02",
+      "title": "Zet jouw Librarian-agent aan het werk",
+      "group": "Start: je brand, Codex en Hermes",
+      "file": "lessen/009.md",
+      "steps": 5,
+      "dependencies": [
+        "N01"
+      ],
+      "inputs": [
+        "second-brain/profiel/SOUL.md",
+        "second-brain/WORKFLOWS.md",
+        "second-brain/fixtures/inname.json",
+        "second-brain/skills/librarian-inname/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "librarian-inname",
+          "path": "second-brain/skills/librarian-inname/SKILL.md"
+        }
+      ],
+      "execution": "Hermes",
+      "output": "librarian-inname.md",
+      "next": "0.8"
+    },
+    {
+      "number": 10,
+      "code": "0.8",
+      "title": "Mijn skills gebruiken om complete opdrachten te bouwen",
+      "group": "Start: je brand, Codex en Hermes",
+      "file": "lessen/010.md",
+      "steps": 6,
+      "dependencies": [
+        "0.6"
+      ],
+      "inputs": [
+        "skills/LEESMIJ.md",
+        "werkplek-extra/START-HIER.md",
+        "werkplek-extra/design-skills/frontend-design/SKILL.md",
+        "werkplek-extra/design-skills/brandkit/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "website-workflow",
+          "path": "skills/website-workflow/SKILL.md"
+        },
+        {
+          "name": "visual-workflow",
+          "path": "skills/visual-workflow/SKILL.md"
+        },
+        {
+          "name": "brand-workflow",
+          "path": "skills/brand-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "brand/workflow-keuze.md",
+      "next": "1.1"
+    },
+    {
+      "number": 11,
+      "code": "1.1",
+      "title": "Uitzoeken waarom mensen jouw product willen kopen",
+      "group": "Research, Second Brain en aanbod",
+      "file": "lessen/011.md",
+      "steps": 5,
+      "dependencies": [
+        "0.4"
+      ],
+      "inputs": [
+        "voorbeelden/scoopfolk/research/docs/colorful-daily-fiber/deepresearch.md",
+        "templates/research.md"
+      ],
+      "skills": [
+        {
+          "name": "deep-research",
+          "path": "skills/deep-research/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "research/markt.md",
+      "next": "N03"
+    },
+    {
+      "number": 12,
+      "code": "N03",
+      "title": "Van YouTube-video naar bruikbare businesskennis",
+      "group": "Research, Second Brain en aanbod",
+      "file": "lessen/012.md",
+      "steps": 5,
+      "dependencies": [
+        "N02"
+      ],
+      "inputs": [
+        "second-brain/voorbeelden/video-notitie.md",
+        "second-brain/WORKFLOWS.md",
+        "second-brain/skills/librarian-inname/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "librarian-inname",
+          "path": "second-brain/skills/librarian-inname/SKILL.md"
+        }
+      ],
+      "execution": "Hermes",
+      "output": "video-naar-opdracht.md",
+      "next": "1.2"
+    },
+    {
+      "number": 13,
+      "code": "1.2",
+      "title": "Met Atria de advertenties van concurrenten verzamelen",
+      "group": "Research, Second Brain en aanbod",
+      "file": "lessen/013.md",
+      "steps": 6,
+      "dependencies": [
+        "1.1"
+      ],
+      "inputs": [
+        "aanvulling-v13/ATRIA-WORKFLOW.md",
+        "aanvulling-v13/concurrenten.csv",
+        "ads/FRAMEWORKS.md",
+        "ads/RESEARCH-PROMPT.md"
+      ],
+      "skills": [
+        {
+          "name": "deep-research",
+          "path": "skills/deep-research/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "research/atria/",
+      "next": "N25"
+    },
+    {
+      "number": 14,
+      "code": "N25",
+      "title": "Bouw een doorzoekbare advertentiebibliotheek",
+      "group": "Research, Second Brain en aanbod",
+      "file": "lessen/014.md",
+      "steps": 5,
+      "dependencies": [
+        "1.2",
+        "N02"
+      ],
+      "inputs": [
+        "aanvulling-v13/ATRIA-WORKFLOW.md",
+        "praktijk-v16/ad-register.csv",
+        "second-brain/skills/librarian-inname/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "librarian-inname",
+          "path": "second-brain/skills/librarian-inname/SKILL.md"
+        }
+      ],
+      "execution": "Hermes",
+      "output": "advertentiebibliotheek.csv",
+      "next": "1.3"
+    },
+    {
+      "number": 15,
+      "code": "1.3",
+      "title": "Een aanbod maken waar de juiste klant op aangaat",
+      "group": "Research, Second Brain en aanbod",
+      "file": "lessen/015.md",
+      "steps": 6,
+      "dependencies": [
+        "1.1",
+        "1.2"
+      ],
+      "inputs": [
+        "templates/avatar-sheet.md",
+        "templates/necessary-beliefs.md",
+        "templates/offerbrief.md"
+      ],
+      "skills": [
+        {
+          "name": "deep-research",
+          "path": "skills/deep-research/SKILL.md"
+        },
+        {
+          "name": "brand-workflow",
+          "path": "skills/brand-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "brand/offerbrief.md",
+      "next": "N09"
+    },
+    {
+      "number": 16,
+      "code": "N09",
+      "title": "Van een vaag idee naar een complete bouwopdracht",
+      "group": "Research, Second Brain en aanbod",
+      "file": "lessen/016.md",
+      "steps": 5,
+      "dependencies": [
+        "1.3"
+      ],
+      "inputs": [
+        "case/producten.csv",
+        "templates/offerbrief.md",
+        "second-brain/skills/project-overdracht/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "project-overdracht",
+          "path": "second-brain/skills/project-overdracht/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "bouwopdracht.md",
+      "next": "N26"
+    },
+    {
+      "number": 17,
+      "code": "N26",
+      "title": "Haal testbare angles uit concurrentieonderzoek",
+      "group": "Research, Second Brain en aanbod",
+      "file": "lessen/017.md",
+      "steps": 5,
+      "dependencies": [
+        "N25",
+        "1.3"
+      ],
+      "inputs": [
+        "templates/offerbrief.md",
+        "ads/FRAMEWORKS.md",
+        "second-brain/skills/media-buyer-review/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "media-buyer-review",
+          "path": "second-brain/skills/media-buyer-review/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "angle-tests.md",
+      "next": "1.4"
+    },
+    {
+      "number": 18,
+      "code": "1.4",
+      "title": "Eén merkverhaal voor alles wat we maken",
+      "group": "Research, Second Brain en aanbod",
+      "file": "lessen/018.md",
+      "steps": 5,
+      "dependencies": [
+        "1.3",
+        "0.4"
+      ],
+      "inputs": [
+        "context/merkstem.md",
+        "templates/project-knowledge.md"
+      ],
+      "skills": [
+        {
+          "name": "brand-workflow",
+          "path": "skills/brand-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "brand/merkbasis.md",
+      "next": "N05"
+    },
+    {
+      "number": 19,
+      "code": "N05",
+      "title": "Laat je Librarian verouderde informatie oplossen",
+      "group": "Research, Second Brain en aanbod",
+      "file": "lessen/019.md",
+      "steps": 5,
+      "dependencies": [
+        "N02"
+      ],
+      "inputs": [
+        "second-brain/fixtures/inname.json",
+        "second-brain/WORKFLOWS.md",
+        "second-brain/skills/librarian-actualisatie/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "librarian-actualisatie",
+          "path": "second-brain/skills/librarian-actualisatie/SKILL.md"
+        }
+      ],
+      "execution": "Hermes",
+      "output": "actualisatie.md",
+      "next": "N06"
+    },
+    {
+      "number": 20,
+      "code": "N06",
+      "title": "Laat Codex en Hermes met dezelfde kennis bouwen",
+      "group": "Research, Second Brain en aanbod",
+      "file": "lessen/020.md",
+      "steps": 5,
+      "dependencies": [
+        "N05",
+        "1.4"
+      ],
+      "inputs": [
+        "second-brain/templates/handoff.md",
+        "second-brain/vault/INDEX.md",
+        "second-brain/skills/project-overdracht/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "project-overdracht",
+          "path": "second-brain/skills/project-overdracht/SKILL.md"
+        }
+      ],
+      "execution": "Codex en Hermes",
+      "output": "overdracht.md",
+      "next": "3.1"
+    },
+    {
+      "number": 21,
+      "code": "3.1",
+      "title": "Het aanbod en de bestelopties in je store uitwerken",
+      "group": "Research, Second Brain en aanbod",
+      "file": "lessen/021.md",
+      "steps": 6,
+      "dependencies": [
+        "1.3"
+      ],
+      "inputs": [
+        "case/producten.csv",
+        "templates/offerbrief.md"
+      ],
+      "skills": [
+        {
+          "name": "ecommerce-workflow",
+          "path": "skills/ecommerce-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "storefront/koopmodule/",
+      "next": "5.1"
+    },
+    {
+      "number": 22,
+      "code": "5.1",
+      "title": "Een brandbook waar je hele team mee kan werken",
+      "group": "Branding en productbeelden",
+      "file": "lessen/022.md",
+      "steps": 5,
+      "dependencies": [
+        "1.4"
+      ],
+      "inputs": [
+        "werkplek-extra/scoopfolk-brand-actueel/brandbook.pdf",
+        "werkplek-extra/scoopfolk-brand-actueel/brand-tokens.json",
+        "werkplek-extra/START-HIER.md",
+        "werkplek-extra/design-skills/brandkit/SKILL.md",
+        "werkplek-extra/design-skills/brand-extract/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "brand-workflow",
+          "path": "skills/brand-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "brand/brandbook/",
+      "next": "2.1"
+    },
+    {
+      "number": 23,
+      "code": "2.1",
+      "title": "References kiezen voor een webshop die eruit springt",
+      "group": "Branding en productbeelden",
+      "file": "lessen/023.md",
+      "steps": 6,
+      "dependencies": [
+        "5.1"
+      ],
+      "inputs": [
+        "context/DESIGN.md",
+        "werkplek-extra/START-HIER.md",
+        "werkplek-extra/design-skills/design-kit/SKILL.md",
+        "werkplek-extra/design-skills/21st-ui-explore/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "website-workflow",
+          "path": "skills/website-workflow/SKILL.md"
+        },
+        {
+          "name": "design-review",
+          "path": "skills/design-review/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "brand/referenceboard.md",
+      "next": "2.2"
+    },
+    {
+      "number": 24,
+      "code": "2.2",
+      "title": "Jouw design vastleggen zodat de hele store klopt",
+      "group": "Branding en productbeelden",
+      "file": "lessen/024.md",
+      "steps": 5,
+      "dependencies": [
+        "2.1",
+        "5.1"
+      ],
+      "inputs": [
+        "context/DESIGN.md",
+        "werkplek-extra/START-HIER.md",
+        "werkplek-extra/design-skills/reference-design-contract/SKILL.md",
+        "werkplek-extra/design-skills/design-md/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "brand-workflow",
+          "path": "skills/brand-workflow/SKILL.md"
+        },
+        {
+          "name": "design-review",
+          "path": "skills/design-review/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "brand/design-preview/",
+      "next": "5.2"
+    },
+    {
+      "number": 25,
+      "code": "5.2",
+      "title": "Productbeelden en characters die bij jouw merk blijven passen",
+      "group": "Branding en productbeelden",
+      "file": "lessen/025.md",
+      "steps": 6,
+      "dependencies": [
+        "5.1",
+        "2.2"
+      ],
+      "inputs": [
+        "context/assets.csv",
+        "voorbeelden/scoopfolk/brand/images/packaging-concept.png",
+        "werkplek-extra/START-HIER.md",
+        "werkplek-extra/design-skills/brandkit/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "visual-workflow",
+          "path": "skills/visual-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "content/productbeelden/",
+      "next": "2.3"
+    },
+    {
+      "number": 26,
+      "code": "2.3",
+      "title": "De complete storefront zelf bouwen met Codex",
+      "group": "Storefront bouwen → Shopify Liquid",
+      "file": "lessen/026.md",
+      "steps": 6,
+      "dependencies": [
+        "2.2",
+        "5.2",
+        "3.1"
+      ],
+      "inputs": [
+        "context/DESIGN.md",
+        "werkplek-extra/START-HIER.md",
+        "werkplek-extra/design-skills/frontend-design/SKILL.md",
+        "werkplek-extra/design-skills/21st-ui-build/SKILL.md",
+        "werkplek-extra/design-skills/impeccable-design-polish/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "website-workflow",
+          "path": "skills/website-workflow/SKILL.md"
+        },
+        {
+          "name": "visual-workflow",
+          "path": "skills/visual-workflow/SKILL.md"
+        },
+        {
+          "name": "design-review",
+          "path": "skills/design-review/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "storefront/",
+      "next": "N10"
+    },
+    {
+      "number": 27,
+      "code": "N10",
+      "title": "Maak een grote build over meerdere sessies af",
+      "group": "Storefront bouwen → Shopify Liquid",
+      "file": "lessen/027.md",
+      "steps": 5,
+      "dependencies": [
+        "2.3"
+      ],
+      "inputs": [
+        "second-brain/templates/handoff.md",
+        "templates/handoff.md",
+        "second-brain/skills/project-overdracht/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "project-overdracht",
+          "path": "second-brain/skills/project-overdracht/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "sessieoverdracht.md",
+      "next": "N11"
+    },
+    {
+      "number": 28,
+      "code": "N11",
+      "title": "Laat research, bouwen en review tegelijk doorpakken",
+      "group": "Storefront bouwen → Shopify Liquid",
+      "file": "lessen/028.md",
+      "steps": 5,
+      "dependencies": [
+        "N10"
+      ],
+      "inputs": [
+        "context/DESIGN.md",
+        "templates/research.md",
+        "second-brain/skills/project-overdracht/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "project-overdracht",
+          "path": "second-brain/skills/project-overdracht/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "team-build-review.md",
+      "next": "2.4"
+    },
+    {
+      "number": 29,
+      "code": "2.4",
+      "title": "Een premium productpagina met scrollanimatie en 3D",
+      "group": "Storefront bouwen → Shopify Liquid",
+      "file": "lessen/029.md",
+      "steps": 5,
+      "dependencies": [
+        "2.3"
+      ],
+      "inputs": [
+        "builds/scroll/index.html",
+        "werkplek-extra/START-HIER.md",
+        "werkplek-extra/design-skills/motion-design/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "website-workflow",
+          "path": "skills/website-workflow/SKILL.md"
+        },
+        {
+          "name": "video-review",
+          "path": "skills/video-review/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "storefront/product-experience/",
+      "next": "2.5"
+    },
+    {
+      "number": 30,
+      "code": "2.5",
+      "title": "Je website online zetten en als echt product opleveren",
+      "group": "Storefront bouwen → Shopify Liquid",
+      "file": "lessen/030.md",
+      "steps": 6,
+      "dependencies": [
+        "2.3"
+      ],
+      "inputs": [
+        "werkkaarten/BRONNEN.md"
+      ],
+      "skills": [
+        {
+          "name": "website-workflow",
+          "path": "skills/website-workflow/SKILL.md"
+        },
+        {
+          "name": "design-review",
+          "path": "skills/design-review/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "release/oplevering.md",
+      "next": "3.2"
+    },
+    {
+      "number": 31,
+      "code": "3.2",
+      "title": "Jouw eigen ontwerp omzetten naar Shopify Liquid",
+      "group": "Storefront bouwen → Shopify Liquid",
+      "file": "lessen/031.md",
+      "steps": 7,
+      "dependencies": [
+        "2.3",
+        "3.1"
+      ],
+      "inputs": [
+        "werkkaarten/SHOPIFY-LIQUID.md",
+        "case/producten.csv"
+      ],
+      "skills": [
+        {
+          "name": "ecommerce-workflow",
+          "path": "skills/ecommerce-workflow/SKILL.md"
+        },
+        {
+          "name": "website-workflow",
+          "path": "skills/website-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "shopify/theme/",
+      "next": "3.2a"
+    },
+    {
+      "number": 32,
+      "code": "3.2a",
+      "title": "Sections bouwen die je zelf kunt aanpassen",
+      "group": "Storefront bouwen → Shopify Liquid",
+      "file": "lessen/032.md",
+      "steps": 6,
+      "dependencies": [
+        "3.2"
+      ],
+      "inputs": [
+        "werkkaarten/SHOPIFY-LIQUID.md"
+      ],
+      "skills": [
+        {
+          "name": "ecommerce-workflow",
+          "path": "skills/ecommerce-workflow/SKILL.md"
+        },
+        {
+          "name": "website-workflow",
+          "path": "skills/website-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "shopify/editor-controle.md",
+      "next": "3.2b"
+    },
+    {
+      "number": 33,
+      "code": "3.2b",
+      "title": "Van product kiezen naar een echte bestelling",
+      "group": "Storefront bouwen → Shopify Liquid",
+      "file": "lessen/033.md",
+      "steps": 7,
+      "dependencies": [
+        "3.2a"
+      ],
+      "inputs": [
+        "ecom/SHOPIFY-WERKBOEK.md",
+        "ecom/TESTMATRIX.csv"
+      ],
+      "skills": [
+        {
+          "name": "ecommerce-workflow",
+          "path": "skills/ecommerce-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "shopify/aankooproute.md",
+      "next": "3.6"
+    },
+    {
+      "number": 34,
+      "code": "3.6",
+      "title": "Je store verbeteren met echte experimenten",
+      "group": "Storefront bouwen → Shopify Liquid",
+      "file": "lessen/034.md",
+      "steps": 5,
+      "dependencies": [
+        "3.2b"
+      ],
+      "inputs": [
+        "werkkaarten/BRONNEN.md"
+      ],
+      "skills": [
+        {
+          "name": "ecommerce-workflow",
+          "path": "skills/ecommerce-workflow/SKILL.md"
+        },
+        {
+          "name": "analytics-workflow",
+          "path": "skills/analytics-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "shopify/experiment.md",
+      "next": "5.3"
+    },
+    {
+      "number": 35,
+      "code": "5.3",
+      "title": "Een video-workflow bouwen die jouw feedback gebruikt",
+      "group": "Video: van opname naar je eigen editor",
+      "file": "lessen/035.md",
+      "steps": 6,
+      "dependencies": [
+        "5.2"
+      ],
+      "inputs": [
+        "voorbeelden/content/editplan.json"
+      ],
+      "skills": [
+        {
+          "name": "video-review",
+          "path": "skills/video-review/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "content/video-feedback/",
+      "next": "N19"
+    },
+    {
+      "number": 36,
+      "code": "N19",
+      "title": "Van ruwe opname naar een compleet montageplan",
+      "group": "Video: van opname naar je eigen editor",
+      "file": "lessen/036.md",
+      "steps": 5,
+      "dependencies": [
+        "5.3"
+      ],
+      "inputs": [
+        "praktijk-v16/media-register.csv",
+        "praktijk-v16/montageplan.json",
+        "second-brain/skills/edit-secties/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "edit-secties",
+          "path": "second-brain/skills/edit-secties/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "montageplan.json",
+      "next": "N20"
+    },
+    {
+      "number": 37,
+      "code": "N20",
+      "title": "Laat je agent een volledige videosectie monteren",
+      "group": "Video: van opname naar je eigen editor",
+      "file": "lessen/037.md",
+      "steps": 5,
+      "dependencies": [
+        "N19"
+      ],
+      "inputs": [
+        "praktijk-v16/montageplan.json",
+        "praktijk-v16/media-register.csv",
+        "second-brain/skills/edit-secties/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "edit-secties",
+          "path": "second-brain/skills/edit-secties/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "sectie-review.md",
+      "next": "N21"
+    },
+    {
+      "number": 38,
+      "code": "N21",
+      "title": "Maak van losse secties één complete video",
+      "group": "Video: van opname naar je eigen editor",
+      "file": "lessen/038.md",
+      "steps": 5,
+      "dependencies": [
+        "N20"
+      ],
+      "inputs": [
+        "praktijk-v16/montageplan.json",
+        "praktijk-v16/export-check.md",
+        "second-brain/skills/edit-secties/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "edit-secties",
+          "path": "second-brain/skills/edit-secties/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "volledige-video-review.md",
+      "next": "N22"
+    },
+    {
+      "number": 39,
+      "code": "N22",
+      "title": "Haal meerdere sterke clips uit één lange opname",
+      "group": "Video: van opname naar je eigen editor",
+      "file": "lessen/039.md",
+      "steps": 5,
+      "dependencies": [
+        "N21"
+      ],
+      "inputs": [
+        "praktijk-v16/media-register.csv",
+        "praktijk-v16/export-check.md",
+        "second-brain/skills/edit-secties/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "edit-secties",
+          "path": "second-brain/skills/edit-secties/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "clipselectie.md",
+      "next": "N23"
+    },
+    {
+      "number": 40,
+      "code": "N23",
+      "title": "Analyseer je video en maak een betere tweede versie",
+      "group": "Video: van opname naar je eigen editor",
+      "file": "lessen/040.md",
+      "steps": 5,
+      "dependencies": [
+        "N20"
+      ],
+      "inputs": [
+        "praktijk-v16/export-check.md",
+        "voorbeelden/content/editplan.json",
+        "second-brain/skills/edit-secties/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "edit-secties",
+          "path": "second-brain/skills/edit-secties/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "video-analyse-vergelijking.md",
+      "next": "5.4"
+    },
+    {
+      "number": 41,
+      "code": "5.4",
+      "title": "Je productvideo afmaken in Palmier Pro en DaVinci Resolve",
+      "group": "Video: van opname naar je eigen editor",
+      "file": "lessen/041.md",
+      "steps": 6,
+      "dependencies": [
+        "5.3"
+      ],
+      "inputs": [
+        "voorbeelden/content/editplan.json"
+      ],
+      "skills": [
+        {
+          "name": "video-review",
+          "path": "skills/video-review/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "content/productvideo/",
+      "next": "5.5"
+    },
+    {
+      "number": 42,
+      "code": "5.5",
+      "title": "Een contentbatch voor je merk maken",
+      "group": "Content, creatives en je advertentiebibliotheek",
+      "file": "lessen/042.md",
+      "steps": 6,
+      "dependencies": [
+        "1.4",
+        "5.2"
+      ],
+      "inputs": [
+        "ads/FRAMEWORKS.md"
+      ],
+      "skills": [
+        {
+          "name": "content-workflow",
+          "path": "skills/content-workflow/SKILL.md"
+        },
+        {
+          "name": "visual-workflow",
+          "path": "skills/visual-workflow/SKILL.md"
+        },
+        {
+          "name": "video-review",
+          "path": "skills/video-review/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "content/batch/",
+      "next": "N12"
+    },
+    {
+      "number": 43,
+      "code": "N12",
+      "title": "Voer een browserworkflow van begin tot eind uit",
+      "group": "Content, creatives en je advertentiebibliotheek",
+      "file": "lessen/043.md",
+      "steps": 5,
+      "dependencies": [
+        "5.5"
+      ],
+      "inputs": [
+        "voorbeelden/content/maandplanning.csv",
+        "aanvulling-v13/oefeninput/browser.html",
+        "second-brain/skills/routine-herstel/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "routine-herstel",
+          "path": "second-brain/skills/routine-herstel/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "browser-batch.md",
+      "next": "5.6"
+    },
+    {
+      "number": 44,
+      "code": "5.6",
+      "title": "Productfotografie en UGC als complete klantopdracht",
+      "group": "Content, creatives en je advertentiebibliotheek",
+      "file": "lessen/044.md",
+      "steps": 5,
+      "dependencies": [
+        "5.4",
+        "5.5"
+      ],
+      "inputs": [
+        "voorbeelden/content/ugc-script.md"
+      ],
+      "skills": [
+        {
+          "name": "visual-workflow",
+          "path": "skills/visual-workflow/SKILL.md"
+        },
+        {
+          "name": "video-review",
+          "path": "skills/video-review/SKILL.md"
+        },
+        {
+          "name": "content-workflow",
+          "path": "skills/content-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "klantwerk/productcontent/",
+      "next": "5.7"
+    },
+    {
+      "number": 45,
+      "code": "5.7",
+      "title": "Van Atria-research naar je eigen advertentiebatch",
+      "group": "Content, creatives en je advertentiebibliotheek",
+      "file": "lessen/045.md",
+      "steps": 6,
+      "dependencies": [
+        "1.2",
+        "5.5",
+        "5.4"
+      ],
+      "inputs": [
+        "aanvulling-v13/ATRIA-WORKFLOW.md",
+        "ads/FRAMEWORKS.md"
+      ],
+      "skills": [
+        {
+          "name": "content-workflow",
+          "path": "skills/content-workflow/SKILL.md"
+        },
+        {
+          "name": "visual-workflow",
+          "path": "skills/visual-workflow/SKILL.md"
+        },
+        {
+          "name": "video-review",
+          "path": "skills/video-review/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "content/ads/",
+      "next": "N27"
+    },
+    {
+      "number": 46,
+      "code": "N27",
+      "title": "Maak drie uitvoeringen van één campagneconcept",
+      "group": "Content, creatives en je advertentiebibliotheek",
+      "file": "lessen/046.md",
+      "steps": 5,
+      "dependencies": [
+        "N26",
+        "5.7"
+      ],
+      "inputs": [
+        "ads/FRAMEWORKS.md",
+        "voorbeelden/content/ugc-script.md",
+        "werkplek-extra/START-HIER.md",
+        "second-brain/skills/media-buyer-review/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "media-buyer-review",
+          "path": "second-brain/skills/media-buyer-review/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "campagne-formatpakket.md",
+      "next": "N08"
+    },
+    {
+      "number": 47,
+      "code": "N08",
+      "title": "Gebruik je Second Brain voor je volgende campagne",
+      "group": "Content, creatives en je advertentiebibliotheek",
+      "file": "lessen/047.md",
+      "steps": 5,
+      "dependencies": [
+        "N06",
+        "5.7"
+      ],
+      "inputs": [
+        "second-brain/WORKFLOWS.md",
+        "templates/offerbrief.md",
+        "second-brain/skills/librarian-inname/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "librarian-inname",
+          "path": "second-brain/skills/librarian-inname/SKILL.md"
+        }
+      ],
+      "execution": "Hermes",
+      "output": "campagne-uit-kennis.md",
+      "next": "5.8"
+    },
+    {
+      "number": 48,
+      "code": "5.8",
+      "title": "Van losse content naar een bureau met maandpakketten",
+      "group": "Content, creatives en je advertentiebibliotheek",
+      "file": "lessen/048.md",
+      "steps": 5,
+      "dependencies": [
+        "5.7"
+      ],
+      "inputs": [
+        "voorbeelden/content/maandplanning.csv"
+      ],
+      "skills": [
+        {
+          "name": "content-workflow",
+          "path": "skills/content-workflow/SKILL.md"
+        },
+        {
+          "name": "operator-team-workflow",
+          "path": "skills/operator-team-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "klantwerk/contentbureau/",
+      "next": "0.7"
+    },
+    {
+      "number": 49,
+      "code": "0.7",
+      "title": "Al jouw tools verbinden via Composio",
+      "group": "De workflows achter je business",
+      "file": "lessen/049.md",
+      "steps": 6,
+      "dependencies": [
+        "5.7"
+      ],
+      "inputs": [
+        "werkkaarten/BRONNEN.md"
+      ],
+      "skills": [
+        {
+          "name": "operator-team-workflow",
+          "path": "skills/operator-team-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "workflows/composio-campagne.md",
+      "next": "3.3"
+    },
+    {
+      "number": 50,
+      "code": "3.3",
+      "title": "Vier e-mailflows die voor jouw merk blijven werken",
+      "group": "De workflows achter je business",
+      "file": "lessen/050.md",
+      "steps": 6,
+      "dependencies": [
+        "3.2b",
+        "0.7"
+      ],
+      "inputs": [
+        "ecom/FLOW-MATRIX.csv"
+      ],
+      "skills": [
+        {
+          "name": "email-workflow",
+          "path": "skills/email-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "workflows/email/",
+      "next": "3.4"
+    },
+    {
+      "number": 51,
+      "code": "3.4",
+      "title": "Customer support en operations voor je webshop",
+      "group": "De workflows achter je business",
+      "file": "lessen/051.md",
+      "steps": 5,
+      "dependencies": [
+        "3.2b",
+        "0.7"
+      ],
+      "inputs": [
+        "case/support-tickets.json",
+        "case/orders.csv",
+        "voorbeelden/support/kennisbank.json"
+      ],
+      "skills": [
+        {
+          "name": "support-workflow",
+          "path": "skills/support-workflow/SKILL.md"
+        },
+        {
+          "name": "operations-workflow",
+          "path": "skills/operations-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "workflows/support-operations/",
+      "next": "3.5"
+    },
+    {
+      "number": 52,
+      "code": "3.5",
+      "title": "Weten wat je merk echt verdient",
+      "group": "De workflows achter je business",
+      "file": "lessen/052.md",
+      "steps": 6,
+      "dependencies": [
+        "3.2b"
+      ],
+      "inputs": [
+        "ecom/METRICS.md",
+        "case/orders.csv"
+      ],
+      "skills": [
+        {
+          "name": "analytics-workflow",
+          "path": "skills/analytics-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "workflows/analytics/",
+      "next": "N13"
+    },
+    {
+      "number": 53,
+      "code": "N13",
+      "title": "Bouw een ochtendbriefing voor jouw business",
+      "group": "De workflows achter je business",
+      "file": "lessen/053.md",
+      "steps": 5,
+      "dependencies": [
+        "3.4",
+        "3.5"
+      ],
+      "inputs": [
+        "case/orders.csv",
+        "case/support-tickets.json",
+        "voorbeelden/content/maandplanning.csv",
+        "second-brain/skills/routine-herstel/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "routine-herstel",
+          "path": "second-brain/skills/routine-herstel/SKILL.md"
+        }
+      ],
+      "execution": "Hermes",
+      "output": "ochtendbriefing.md",
+      "next": "N28"
+    },
+    {
+      "number": 54,
+      "code": "N28",
+      "title": "Van goedgekeurde creatives naar een complete campagne",
+      "group": "De workflows achter je business",
+      "file": "lessen/054.md",
+      "steps": 5,
+      "dependencies": [
+        "N27",
+        "0.7"
+      ],
+      "inputs": [
+        "praktijk-v16/campagne.json",
+        "aanvulling-v13/ATRIA-WORKFLOW.md",
+        "second-brain/skills/media-buyer-review/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "media-buyer-review",
+          "path": "second-brain/skills/media-buyer-review/SKILL.md"
+        }
+      ],
+      "execution": "Hermes",
+      "output": "campagne-oplevering.md",
+      "next": "N29"
+    },
+    {
+      "number": 55,
+      "code": "N29",
+      "title": "Laat je Media Buyer de volgende tests voorstellen",
+      "group": "De workflows achter je business",
+      "file": "lessen/055.md",
+      "steps": 5,
+      "dependencies": [
+        "N28",
+        "3.5"
+      ],
+      "inputs": [
+        "praktijk-v16/campagnedata.csv",
+        "praktijk-v16/campagne.json",
+        "second-brain/skills/media-buyer-review/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "media-buyer-review",
+          "path": "second-brain/skills/media-buyer-review/SKILL.md"
+        }
+      ],
+      "execution": "Hermes",
+      "output": "media-buyer-testplan.md",
+      "next": "6.1"
+    },
+    {
+      "number": 56,
+      "code": "6.1",
+      "title": "Zoekvragen vinden die bij jouw aanbod passen",
+      "group": "De workflows achter je business",
+      "file": "lessen/056.md",
+      "steps": 5,
+      "dependencies": [
+        "1.3"
+      ],
+      "inputs": [
+        "voorbeelden/seo/zoekdata.csv"
+      ],
+      "skills": [
+        {
+          "name": "seo-review",
+          "path": "skills/seo-review/SKILL.md"
+        },
+        {
+          "name": "deep-research",
+          "path": "skills/deep-research/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "seo/kansen.md",
+      "next": "6.2"
+    },
+    {
+      "number": 57,
+      "code": "6.2",
+      "title": "Een SEO-pagina maken waar een bezoeker iets aan heeft",
+      "group": "De workflows achter je business",
+      "file": "lessen/057.md",
+      "steps": 6,
+      "dependencies": [
+        "6.1"
+      ],
+      "inputs": [
+        "voorbeelden/seo/brief.md"
+      ],
+      "skills": [
+        {
+          "name": "seo-review",
+          "path": "skills/seo-review/SKILL.md"
+        },
+        {
+          "name": "content-workflow",
+          "path": "skills/content-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "seo/publicatie/",
+      "next": "6.3"
+    },
+    {
+      "number": 58,
+      "code": "6.3",
+      "title": "SEO als terugkerende workflow en maanddienst",
+      "group": "De workflows achter je business",
+      "file": "lessen/058.md",
+      "steps": 5,
+      "dependencies": [
+        "6.2"
+      ],
+      "inputs": [
+        "voorbeelden/seo/maandrapport.md"
+      ],
+      "skills": [
+        {
+          "name": "seo-review",
+          "path": "skills/seo-review/SKILL.md"
+        },
+        {
+          "name": "content-workflow",
+          "path": "skills/content-workflow/SKILL.md"
+        },
+        {
+          "name": "analytics-workflow",
+          "path": "skills/analytics-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "seo/maanddienst/",
+      "next": "4.1"
+    },
+    {
+      "number": 59,
+      "code": "4.1",
+      "title": "Jouw beste workflow als eigen skill bewaren",
+      "group": "Eigen skills en slimmer bouwen",
+      "file": "lessen/059.md",
+      "steps": 6,
+      "dependencies": [
+        "5.7"
+      ],
+      "inputs": [
+        "templates/handoff.md"
+      ],
+      "skills": [
+        {
+          "name": "skill-maker",
+          "path": "skills/skill-maker/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "skills-kandidaten/creative-workflow/",
+      "next": "N24"
+    },
+    {
+      "number": 60,
+      "code": "N24",
+      "title": "Bouw een editor die jouw stijl kan herhalen",
+      "group": "Eigen skills en slimmer bouwen",
+      "file": "lessen/060.md",
+      "steps": 5,
+      "dependencies": [
+        "N23",
+        "4.1"
+      ],
+      "inputs": [
+        "praktijk-v16/export-check.md",
+        "skills/video-review/SKILL.md",
+        "second-brain/skills/edit-secties/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "edit-secties",
+          "path": "second-brain/skills/edit-secties/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "editstijl.md",
+      "next": "4.2"
+    },
+    {
+      "number": 61,
+      "code": "4.2",
+      "title": "Een goede tutorial omzetten naar een workflow die je kunt gebruiken",
+      "group": "Eigen skills en slimmer bouwen",
+      "file": "lessen/061.md",
+      "steps": 5,
+      "dependencies": [
+        "4.1"
+      ],
+      "inputs": [
+        "templates/handoff.md"
+      ],
+      "skills": [
+        {
+          "name": "skill-maker",
+          "path": "skills/skill-maker/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "skills-kandidaten/tutorial-workflow/",
+      "next": "4.3"
+    },
+    {
+      "number": 62,
+      "code": "4.3",
+      "title": "Een complete opdracht laten afleveren",
+      "group": "Eigen skills en slimmer bouwen",
+      "file": "lessen/062.md",
+      "steps": 5,
+      "dependencies": [
+        "2.3"
+      ],
+      "inputs": [
+        "templates/oplevering.md"
+      ],
+      "skills": [
+        {
+          "name": "operator-team-workflow",
+          "path": "skills/operator-team-workflow/SKILL.md"
+        },
+        {
+          "name": "website-workflow",
+          "path": "skills/website-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "klantwerk/build-oplevering.md",
+      "next": "4.4"
+    },
+    {
+      "number": 63,
+      "code": "4.4",
+      "title": "Goede GitHub-projecten aan jouw werkplek toevoegen",
+      "group": "Eigen skills en slimmer bouwen",
+      "file": "lessen/063.md",
+      "steps": 5,
+      "dependencies": [
+        "4.1"
+      ],
+      "inputs": [
+        "aanvulling-v13/GITHUB-WERKBOEK.md"
+      ],
+      "skills": [
+        {
+          "name": "skill-maker",
+          "path": "skills/skill-maker/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "github/reviewbesluit.md",
+      "next": "4.5"
+    },
+    {
+      "number": 64,
+      "code": "4.5",
+      "title": "Jouw skills en agentpakket als product verkopen",
+      "group": "Eigen skills en slimmer bouwen",
+      "file": "lessen/064.md",
+      "steps": 5,
+      "dependencies": [
+        "4.1",
+        "4.4"
+      ],
+      "inputs": [
+        "verdienroutes/digitale-pakketten/voorbeeld.md"
+      ],
+      "skills": [
+        {
+          "name": "skill-maker",
+          "path": "skills/skill-maker/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "klantwerk/digitaal-pakket/",
+      "next": "9.1"
+    },
+    {
+      "number": 65,
+      "code": "9.1",
+      "title": "Meer werk doen met dezelfde gebruiksruimte",
+      "group": "Eigen skills en slimmer bouwen",
+      "file": "lessen/065.md",
+      "steps": 5,
+      "dependencies": [
+        "4.3"
+      ],
+      "inputs": [
+        "templates/modelmeting.md"
+      ],
+      "skills": [
+        {
+          "name": "operator-team-workflow",
+          "path": "skills/operator-team-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "werkplek/gebruiksplan.md",
+      "next": "9.2"
+    },
+    {
+      "number": 66,
+      "code": "9.2",
+      "title": "DeepAstra en DeepSeek voor gericht uitvoerwerk",
+      "group": "Eigen skills en slimmer bouwen",
+      "file": "lessen/066.md",
+      "steps": 5,
+      "dependencies": [
+        "9.1"
+      ],
+      "inputs": [
+        "start/INSTALLATIE.md",
+        "templates/modelmeting.md"
+      ],
+      "skills": [
+        {
+          "name": "operator-team-workflow",
+          "path": "skills/operator-team-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "werkplek/deepastra-proef.md",
+      "next": "9.3"
+    },
+    {
+      "number": 67,
+      "code": "9.3",
+      "title": "Kiezen op kwaliteit, tijd en echte kosten",
+      "group": "Eigen skills en slimmer bouwen",
+      "file": "lessen/067.md",
+      "steps": 5,
+      "dependencies": [
+        "9.2"
+      ],
+      "inputs": [
+        "templates/modelmeting.md"
+      ],
+      "skills": [
+        {
+          "name": "analytics-workflow",
+          "path": "skills/analytics-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "werkplek/vergelijking.md",
+      "next": "10.1"
+    },
+    {
+      "number": 68,
+      "code": "10.1",
+      "title": "Kiezen welk werk jij gaat verkopen",
+      "group": "Klantwerk, kansen en nieuwe producten",
+      "file": "lessen/068.md",
+      "steps": 6,
+      "dependencies": [
+        "5.8"
+      ],
+      "inputs": [
+        "verdienroutes/routes.json"
+      ],
+      "skills": [
+        {
+          "name": "sales-workflow",
+          "path": "skills/sales-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "klantwerk/aanbodkeuze.md",
+      "next": "10.2"
+    },
+    {
+      "number": 69,
+      "code": "10.2",
+      "title": "Uit een klantgesprek halen wat je moet bouwen",
+      "group": "Klantwerk, kansen en nieuwe producten",
+      "file": "lessen/069.md",
+      "steps": 5,
+      "dependencies": [
+        "10.1"
+      ],
+      "inputs": [
+        "voorbeelden/call-rollenspel.md",
+        "templates/call-analyse.md"
+      ],
+      "skills": [
+        {
+          "name": "sales-workflow",
+          "path": "skills/sales-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "klantwerk/call-analyse.md",
+      "next": "N04"
+    },
+    {
+      "number": 70,
+      "code": "N04",
+      "title": "Van klantgesprek naar bedrijfskennis",
+      "group": "Klantwerk, kansen en nieuwe producten",
+      "file": "lessen/070.md",
+      "steps": 5,
+      "dependencies": [
+        "10.2",
+        "N02"
+      ],
+      "inputs": [
+        "voorbeelden/call-rollenspel.md",
+        "second-brain/templates/project.md",
+        "second-brain/skills/librarian-inname/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "librarian-inname",
+          "path": "second-brain/skills/librarian-inname/SKILL.md"
+        }
+      ],
+      "execution": "Hermes",
+      "output": "klantkennis.md",
+      "next": "N07"
+    },
+    {
+      "number": 71,
+      "code": "N07",
+      "title": "Geef ieder klantproject zijn eigen Second Brain",
+      "group": "Klantwerk, kansen en nieuwe producten",
+      "file": "lessen/071.md",
+      "steps": 5,
+      "dependencies": [
+        "N04",
+        "N06"
+      ],
+      "inputs": [
+        "second-brain/templates/project.md",
+        "second-brain/fixtures/klanten.json",
+        "second-brain/skills/librarian-inname/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "librarian-inname",
+          "path": "second-brain/skills/librarian-inname/SKILL.md"
+        }
+      ],
+      "execution": "Hermes",
+      "output": "klantisolatie.md",
+      "next": "10.3"
+    },
+    {
+      "number": 72,
+      "code": "10.3",
+      "title": "Een demo en voorstel waar de klant op kan beslissen",
+      "group": "Klantwerk, kansen en nieuwe producten",
+      "file": "lessen/072.md",
+      "steps": 5,
+      "dependencies": [
+        "10.2"
+      ],
+      "inputs": [
+        "templates/voorstel.md"
+      ],
+      "skills": [
+        {
+          "name": "sales-workflow",
+          "path": "skills/sales-workflow/SKILL.md"
+        },
+        {
+          "name": "website-workflow",
+          "path": "skills/website-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "klantwerk/demo-voorstel/",
+      "next": "10.4"
+    },
+    {
+      "number": 73,
+      "code": "10.4",
+      "title": "Een prijs bepalen waar je goed werk voor kunt leveren",
+      "group": "Klantwerk, kansen en nieuwe producten",
+      "file": "lessen/073.md",
+      "steps": 5,
+      "dependencies": [
+        "10.3"
+      ],
+      "inputs": [
+        "templates/calculatie.csv"
+      ],
+      "skills": [
+        {
+          "name": "analytics-workflow",
+          "path": "skills/analytics-workflow/SKILL.md"
+        },
+        {
+          "name": "sales-workflow",
+          "path": "skills/sales-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "klantwerk/prijsmodel/",
+      "next": "7.1"
+    },
+    {
+      "number": 74,
+      "code": "7.1",
+      "title": "Bedrijven vinden die jouw werk kunnen gebruiken",
+      "group": "Klantwerk, kansen en nieuwe producten",
+      "file": "lessen/074.md",
+      "steps": 5,
+      "dependencies": [
+        "10.1"
+      ],
+      "inputs": [
+        "voorbeelden/outreach/kandidaten.csv"
+      ],
+      "skills": [
+        {
+          "name": "sales-workflow",
+          "path": "skills/sales-workflow/SKILL.md"
+        },
+        {
+          "name": "outreach-review",
+          "path": "skills/outreach-review/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "sales/prospects.csv",
+      "next": "N30"
+    },
+    {
+      "number": 75,
+      "code": "N30",
+      "title": "Vind zakelijke kansen in echte gesprekken",
+      "group": "Klantwerk, kansen en nieuwe producten",
+      "file": "lessen/075.md",
+      "steps": 5,
+      "dependencies": [
+        "7.1"
+      ],
+      "inputs": [
+        "templates/research.md",
+        "praktijk-v16/kansen.csv",
+        "second-brain/skills/routine-herstel/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "routine-herstel",
+          "path": "second-brain/skills/routine-herstel/SKILL.md"
+        }
+      ],
+      "execution": "Hermes",
+      "output": "kansenonderzoek.md",
+      "next": "7.2"
+    },
+    {
+      "number": 76,
+      "code": "7.2",
+      "title": "De beste kansen kiezen en je CRM gebruiken",
+      "group": "Klantwerk, kansen en nieuwe producten",
+      "file": "lessen/076.md",
+      "steps": 5,
+      "dependencies": [
+        "7.1",
+        "0.7"
+      ],
+      "inputs": [
+        "voorbeelden/outreach/kandidaten.csv"
+      ],
+      "skills": [
+        {
+          "name": "sales-workflow",
+          "path": "skills/sales-workflow/SKILL.md"
+        },
+        {
+          "name": "outreach-review",
+          "path": "skills/outreach-review/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "sales/prioriteiten.md",
+      "next": "7.3"
+    },
+    {
+      "number": 77,
+      "code": "7.3",
+      "title": "Een gesprek starten met een concrete demo",
+      "group": "Klantwerk, kansen en nieuwe producten",
+      "file": "lessen/077.md",
+      "steps": 5,
+      "dependencies": [
+        "7.2"
+      ],
+      "inputs": [
+        "voorbeelden/outreach/bericht.md"
+      ],
+      "skills": [
+        {
+          "name": "sales-workflow",
+          "path": "skills/sales-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "sales/berichten/",
+      "next": "7.4"
+    },
+    {
+      "number": 78,
+      "code": "7.4",
+      "title": "Je sales-workflow verbeteren met echte reacties",
+      "group": "Klantwerk, kansen en nieuwe producten",
+      "file": "lessen/078.md",
+      "steps": 6,
+      "dependencies": [
+        "7.3"
+      ],
+      "inputs": [
+        "voorbeelden/outreach/reacties.md"
+      ],
+      "skills": [
+        {
+          "name": "sales-workflow",
+          "path": "skills/sales-workflow/SKILL.md"
+        },
+        {
+          "name": "analytics-workflow",
+          "path": "skills/analytics-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "sales/verbetering.md",
+      "next": "2.6"
+    },
+    {
+      "number": 79,
+      "code": "2.6",
+      "title": "Van jouw workflow naar een eigen micro-SaaS",
+      "group": "Klantwerk, kansen en nieuwe producten",
+      "file": "lessen/079.md",
+      "steps": 5,
+      "dependencies": [
+        "5.7",
+        "10.4"
+      ],
+      "inputs": [
+        "voorbeelden/saas/product-checklist.md"
+      ],
+      "skills": [
+        {
+          "name": "website-workflow",
+          "path": "skills/website-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "klantwerk/creative-workspace/",
+      "next": "N31"
+    },
+    {
+      "number": 80,
+      "code": "N31",
+      "title": "Van gevonden probleem naar een werkend prototype",
+      "group": "Klantwerk, kansen en nieuwe producten",
+      "file": "lessen/080.md",
+      "steps": 5,
+      "dependencies": [
+        "N30",
+        "2.6"
+      ],
+      "inputs": [
+        "voorbeelden/saas/product-checklist.md",
+        "praktijk-v16/kansen.csv",
+        "second-brain/skills/routine-herstel/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "routine-herstel",
+          "path": "second-brain/skills/routine-herstel/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "prototype-review.md",
+      "next": "10.6"
+    },
+    {
+      "number": 81,
+      "code": "10.6",
+      "title": "Een CRM-workflow bouwen die opvolging uit handen neemt",
+      "group": "Klantwerk, kansen en nieuwe producten",
+      "file": "lessen/081.md",
+      "steps": 6,
+      "dependencies": [
+        "7.4",
+        "0.7"
+      ],
+      "inputs": [
+        "voorbeelden/crm/events.json"
+      ],
+      "skills": [
+        {
+          "name": "sales-workflow",
+          "path": "skills/sales-workflow/SKILL.md"
+        },
+        {
+          "name": "operator-team-workflow",
+          "path": "skills/operator-team-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "klantwerk/crm/",
+      "next": "10.7"
+    },
+    {
+      "number": 82,
+      "code": "10.7",
+      "title": "Een supportbot bouwen met de kennis van het bedrijf",
+      "group": "Klantwerk, kansen en nieuwe producten",
+      "file": "lessen/082.md",
+      "steps": 5,
+      "dependencies": [
+        "3.4"
+      ],
+      "inputs": [
+        "voorbeelden/support/kennisbank.json",
+        "voorbeelden/support/testvragen.json"
+      ],
+      "skills": [
+        {
+          "name": "support-workflow",
+          "path": "skills/support-workflow/SKILL.md"
+        },
+        {
+          "name": "website-workflow",
+          "path": "skills/website-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "klantwerk/supportbot/",
+      "next": "N32"
+    },
+    {
+      "number": 83,
+      "code": "N32",
+      "title": "Bouw een AI-assistent die klanten via chat gebruiken",
+      "group": "Klantwerk, kansen en nieuwe producten",
+      "file": "lessen/083.md",
+      "steps": 5,
+      "dependencies": [
+        "N07",
+        "10.7"
+      ],
+      "inputs": [
+        "praktijk-v16/dienstaanbod.json",
+        "second-brain/templates/project.md",
+        "second-brain/skills/routine-herstel/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "routine-herstel",
+          "path": "second-brain/skills/routine-herstel/SKILL.md"
+        }
+      ],
+      "execution": "Codex en Hermes",
+      "output": "chatassistent-review.md",
+      "next": "N33"
+    },
+    {
+      "number": 84,
+      "code": "N33",
+      "title": "Bouw een voorstel- en afspraakworkflow",
+      "group": "Klantwerk, kansen en nieuwe producten",
+      "file": "lessen/084.md",
+      "steps": 5,
+      "dependencies": [
+        "N32",
+        "10.6"
+      ],
+      "inputs": [
+        "praktijk-v16/dienstaanbod.json",
+        "templates/calculatie.csv",
+        "second-brain/skills/routine-herstel/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "routine-herstel",
+          "path": "second-brain/skills/routine-herstel/SKILL.md"
+        }
+      ],
+      "execution": "Hermes",
+      "output": "voorstel-afspraak.md",
+      "next": "10.8"
+    },
+    {
+      "number": 85,
+      "code": "10.8",
+      "title": "Bedrijven trainen met hun eigen werk als lesmateriaal",
+      "group": "Klantwerk, kansen en nieuwe producten",
+      "file": "lessen/085.md",
+      "steps": 5,
+      "dependencies": [
+        "10.1"
+      ],
+      "inputs": [
+        "voorbeelden/training/workshop.md"
+      ],
+      "skills": [
+        {
+          "name": "operator-team-workflow",
+          "path": "skills/operator-team-workflow/SKILL.md"
+        },
+        {
+          "name": "content-workflow",
+          "path": "skills/content-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "klantwerk/training/",
+      "next": "10.9"
+    },
+    {
+      "number": 86,
+      "code": "10.9",
+      "title": "White-label bouwen voor andere bureaus",
+      "group": "Klantwerk, kansen en nieuwe producten",
+      "file": "lessen/086.md",
+      "steps": 5,
+      "dependencies": [
+        "10.3"
+      ],
+      "inputs": [
+        "voorbeelden/white-label/overdracht.md"
+      ],
+      "skills": [
+        {
+          "name": "sales-workflow",
+          "path": "skills/sales-workflow/SKILL.md"
+        },
+        {
+          "name": "operator-team-workflow",
+          "path": "skills/operator-team-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "klantwerk/white-label/",
+      "next": "10.5"
+    },
+    {
+      "number": 87,
+      "code": "10.5",
+      "title": "Opleveren zodat de klant er echt mee verder kan",
+      "group": "Klantwerk, kansen en nieuwe producten",
+      "file": "lessen/087.md",
+      "steps": 5,
+      "dependencies": [
+        "10.4",
+        "10.9"
+      ],
+      "inputs": [
+        "templates/oplevering.md"
+      ],
+      "skills": [
+        {
+          "name": "operator-team-workflow",
+          "path": "skills/operator-team-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex",
+      "output": "klantwerk/opleverpakket/",
+      "next": "N34"
+    },
+    {
+      "number": 88,
+      "code": "N34",
+      "title": "Lever een compleet agentpakket over aan een klant",
+      "group": "Klantwerk, kansen en nieuwe producten",
+      "file": "lessen/088.md",
+      "steps": 5,
+      "dependencies": [
+        "N33",
+        "10.5"
+      ],
+      "inputs": [
+        "templates/oplevering.md",
+        "werkplek-extra/START-HIER.md",
+        "second-brain/skills/project-overdracht/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "project-overdracht",
+          "path": "second-brain/skills/project-overdracht/SKILL.md"
+        }
+      ],
+      "execution": "Hermes",
+      "output": "klantpakket-overdracht.md",
+      "next": "8.2"
+    },
+    {
+      "number": 89,
+      "code": "8.2",
+      "title": "Jouw vijftien 187N-agentprofielen inzetten",
+      "group": "Hermes: je team dagelijks laten doorpakken",
+      "file": "lessen/089.md",
+      "steps": 5,
+      "dependencies": [
+        "8.1"
+      ],
+      "inputs": [
+        "hermes/team.json",
+        "hermes/TEAM.md",
+        "werkplek-extra/START-HIER.md",
+        "werkplek-extra/hermes-praktijkprofielen/scoopfolk-demo-orchestrator/SOUL.md",
+        "werkplek-extra/hermes-praktijkprofielen/chief/SOUL.md"
+      ],
+      "skills": [
+        {
+          "name": "operator-team-workflow",
+          "path": "skills/operator-team-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex of Hermes",
+      "output": "hermes/team-inrichting.md",
+      "next": "8.3"
+    },
+    {
+      "number": 90,
+      "code": "8.3",
+      "title": "Je agents laten doorwerken met dezelfde projectkennis",
+      "group": "Hermes: je team dagelijks laten doorpakken",
+      "file": "lessen/090.md",
+      "steps": 5,
+      "dependencies": [
+        "8.2",
+        "N06"
+      ],
+      "inputs": [
+        "templates/project-knowledge.md",
+        "second-brain/WORKFLOWS.md"
+      ],
+      "skills": [
+        {
+          "name": "operator-team-workflow",
+          "path": "skills/operator-team-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex of Hermes",
+      "output": "hermes/projectkennis.md",
+      "next": "8.4"
+    },
+    {
+      "number": 91,
+      "code": "8.4",
+      "title": "Van jouw Codex-build naar een draaiende Hermes-workflow",
+      "group": "Hermes: je team dagelijks laten doorpakken",
+      "file": "lessen/091.md",
+      "steps": 5,
+      "dependencies": [
+        "8.3",
+        "5.7"
+      ],
+      "inputs": [
+        "hermes/team-opdracht.md"
+      ],
+      "skills": [
+        {
+          "name": "operator-team-workflow",
+          "path": "skills/operator-team-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex of Hermes",
+      "output": "hermes/campagne-overdracht/",
+      "next": "N15"
+    },
+    {
+      "number": 92,
+      "code": "N15",
+      "title": "Laat Hermes codingwerk aan Codex overdragen",
+      "group": "Hermes: je team dagelijks laten doorpakken",
+      "file": "lessen/092.md",
+      "steps": 5,
+      "dependencies": [
+        "8.4",
+        "3.2a"
+      ],
+      "inputs": [
+        "second-brain/templates/handoff.md",
+        "case/producten.csv",
+        "second-brain/skills/project-overdracht/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "project-overdracht",
+          "path": "second-brain/skills/project-overdracht/SKILL.md"
+        }
+      ],
+      "execution": "Hermes",
+      "output": "coding-overdracht.md",
+      "next": "8.5"
+    },
+    {
+      "number": 93,
+      "code": "8.5",
+      "title": "Een complete campagne door je team laten maken",
+      "group": "Hermes: je team dagelijks laten doorpakken",
+      "file": "lessen/093.md",
+      "steps": 5,
+      "dependencies": [
+        "8.4"
+      ],
+      "inputs": [
+        "hermes/team-opdracht.md"
+      ],
+      "skills": [
+        {
+          "name": "operator-team-workflow",
+          "path": "skills/operator-team-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex of Hermes",
+      "output": "hermes/teamcampagne/",
+      "next": "8.6"
+    },
+    {
+      "number": 94,
+      "code": "8.6",
+      "title": "De juiste skills en tools aan je agents geven",
+      "group": "Hermes: je team dagelijks laten doorpakken",
+      "file": "lessen/094.md",
+      "steps": 5,
+      "dependencies": [
+        "8.5",
+        "0.7"
+      ],
+      "inputs": [
+        "hermes/team.json",
+        "werkplek-extra/hermes-praktijkprofielen/scoopfolk-demo-orchestrator/SOUL.md",
+        "werkplek-extra/hermes-praktijkprofielen/chief/SOUL.md"
+      ],
+      "skills": [
+        {
+          "name": "operator-team-workflow",
+          "path": "skills/operator-team-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex of Hermes",
+      "output": "hermes/tools-en-proeven.md",
+      "next": "N17"
+    },
+    {
+      "number": 95,
+      "code": "N17",
+      "title": "Laat je agent leren van jouw correcties",
+      "group": "Hermes: je team dagelijks laten doorpakken",
+      "file": "lessen/095.md",
+      "steps": 5,
+      "dependencies": [
+        "8.6",
+        "4.1"
+      ],
+      "inputs": [
+        "skills/content-workflow/SKILL.md",
+        "templates/modelmeting.md",
+        "second-brain/skills/routine-herstel/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "routine-herstel",
+          "path": "second-brain/skills/routine-herstel/SKILL.md"
+        }
+      ],
+      "execution": "Hermes",
+      "output": "skillvergelijking.md",
+      "next": "N18"
+    },
+    {
+      "number": 96,
+      "code": "N18",
+      "title": "Verdeel werk slim over modellen en skills",
+      "group": "Hermes: je team dagelijks laten doorpakken",
+      "file": "lessen/096.md",
+      "steps": 5,
+      "dependencies": [
+        "9.3",
+        "8.6"
+      ],
+      "inputs": [
+        "templates/modelmeting.md",
+        "praktijk-v16/modelmeting.csv",
+        "second-brain/skills/routine-herstel/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "routine-herstel",
+          "path": "second-brain/skills/routine-herstel/SKILL.md"
+        }
+      ],
+      "execution": "Hermes",
+      "output": "model-en-contextmeting.csv",
+      "next": "8.7"
+    },
+    {
+      "number": 97,
+      "code": "8.7",
+      "title": "Terugkerend werk op autopilot zetten",
+      "group": "Hermes: je team dagelijks laten doorpakken",
+      "file": "lessen/097.md",
+      "steps": 5,
+      "dependencies": [
+        "8.6"
+      ],
+      "inputs": [
+        "hermes/routine.md"
+      ],
+      "skills": [
+        {
+          "name": "operator-team-workflow",
+          "path": "skills/operator-team-workflow/SKILL.md"
+        },
+        {
+          "name": "operations-workflow",
+          "path": "skills/operations-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex of Hermes",
+      "output": "hermes/routines/",
+      "next": "N16"
+    },
+    {
+      "number": 98,
+      "code": "N16",
+      "title": "Laat terugkerende workflows omgaan met fouten",
+      "group": "Hermes: je team dagelijks laten doorpakken",
+      "file": "lessen/098.md",
+      "steps": 5,
+      "dependencies": [
+        "8.7"
+      ],
+      "inputs": [
+        "praktijk-v16/routine.json",
+        "voorbeelden/content/maandplanning.csv",
+        "second-brain/skills/routine-herstel/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "routine-herstel",
+          "path": "second-brain/skills/routine-herstel/SKILL.md"
+        }
+      ],
+      "execution": "Hermes",
+      "output": "herstelrapport.md",
+      "next": "8.8"
+    },
+    {
+      "number": 99,
+      "code": "8.8",
+      "title": "Je team onderweg aansturen en je overzicht houden",
+      "group": "Hermes: je team dagelijks laten doorpakken",
+      "file": "lessen/099.md",
+      "steps": 6,
+      "dependencies": [
+        "8.7"
+      ],
+      "inputs": [
+        "hermes/START.md"
+      ],
+      "skills": [
+        {
+          "name": "operator-team-workflow",
+          "path": "skills/operator-team-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex of Hermes",
+      "output": "hermes/remote-en-backup.md",
+      "next": "N14"
+    },
+    {
+      "number": 100,
+      "code": "N14",
+      "title": "Geef vanaf je telefoon een opdracht en ontvang het resultaat",
+      "group": "Hermes: je team dagelijks laten doorpakken",
+      "file": "lessen/100.md",
+      "steps": 5,
+      "dependencies": [
+        "8.8",
+        "N06"
+      ],
+      "inputs": [
+        "hermes/START.md",
+        "second-brain/templates/handoff.md",
+        "second-brain/skills/routine-herstel/SKILL.md"
+      ],
+      "skills": [
+        {
+          "name": "routine-herstel",
+          "path": "second-brain/skills/routine-herstel/SKILL.md"
+        }
+      ],
+      "execution": "Hermes",
+      "output": "telefoon-opdracht.md",
+      "next": "11.1"
+    },
+    {
+      "number": 101,
+      "code": "11.1",
+      "title": "Nu jouw merk en jouw team laten draaien",
+      "group": "Jouw volgende stap",
+      "file": "lessen/101.md",
+      "steps": 4,
+      "dependencies": [
+        "8.8"
+      ],
+      "inputs": [
+        "START-V16.md"
+      ],
+      "skills": [
+        {
+          "name": "operator-team-workflow",
+          "path": "skills/operator-team-workflow/SKILL.md"
+        }
+      ],
+      "execution": "Codex of Hermes",
+      "output": "volgende-stap.md",
+      "next": "B7"
+    },
+    {
+      "number": 102,
+      "code": "B7",
+      "title": "God’s Eye: een spectaculaire globe zelf uitbreiden",
+      "group": "Bonus: alle twaalf GitHub-projecten",
+      "file": "lessen/102.md",
+      "steps": 5,
+      "dependencies": [],
+      "inputs": [
+        "aanvulling-v13/GITHUB-WERKBOEK.md",
+        "aanvulling-v13/productbrief.md"
+      ],
+      "skills": [],
+      "execution": "Codex of Hermes",
+      "output": "bonus/gods-eye/",
+      "next": "B8"
+    },
+    {
+      "number": 103,
+      "code": "B8",
+      "title": "Een interactieve kaart van jouw AI-team",
+      "group": "Bonus: alle twaalf GitHub-projecten",
+      "file": "lessen/103.md",
+      "steps": 5,
+      "dependencies": [],
+      "inputs": [
+        "aanvulling-v13/GITHUB-WERKBOEK.md",
+        "aanvulling-v13/productbrief.md"
+      ],
+      "skills": [],
+      "execution": "Codex of Hermes",
+      "output": "bonus/archify/",
+      "next": "B9"
+    },
+    {
+      "number": 104,
+      "code": "B9",
+      "title": "Een productadvertentie maken met HTML en motion",
+      "group": "Bonus: alle twaalf GitHub-projecten",
+      "file": "lessen/104.md",
+      "steps": 6,
+      "dependencies": [],
+      "inputs": [
+        "aanvulling-v13/GITHUB-WERKBOEK.md",
+        "aanvulling-v13/productbrief.md"
+      ],
+      "skills": [],
+      "execution": "Codex of Hermes",
+      "output": "bonus/hyperframes/",
+      "next": "B10"
+    },
+    {
+      "number": 105,
+      "code": "B10",
+      "title": "Eigen voice-over maken en lokaal bewerken",
+      "group": "Bonus: alle twaalf GitHub-projecten",
+      "file": "lessen/105.md",
+      "steps": 5,
+      "dependencies": [],
+      "inputs": [
+        "aanvulling-v13/GITHUB-WERKBOEK.md",
+        "aanvulling-v13/productbrief.md"
+      ],
+      "skills": [],
+      "execution": "Codex of Hermes",
+      "output": "bonus/voicestudio/",
+      "next": "B11"
+    },
+    {
+      "number": 106,
+      "code": "B11",
+      "title": "Van zoekdata naar een concrete SEO-opdracht",
+      "group": "Bonus: alle twaalf GitHub-projecten",
+      "file": "lessen/106.md",
+      "steps": 5,
+      "dependencies": [],
+      "inputs": [
+        "aanvulling-v13/GITHUB-WERKBOEK.md",
+        "aanvulling-v13/productbrief.md"
+      ],
+      "skills": [],
+      "execution": "Codex of Hermes",
+      "output": "bonus/open-seo/",
+      "next": "B12"
+    },
+    {
+      "number": 107,
+      "code": "B12",
+      "title": "Een interactieve training uit je eigen materiaal maken",
+      "group": "Bonus: alle twaalf GitHub-projecten",
+      "file": "lessen/107.md",
+      "steps": 5,
+      "dependencies": [],
+      "inputs": [
+        "aanvulling-v13/GITHUB-WERKBOEK.md",
+        "aanvulling-v13/productbrief.md",
+        "aanvulling-v13/oefeninput/aanbod.md"
+      ],
+      "skills": [],
+      "execution": "Codex of Hermes",
+      "output": "bonus/openmaic/",
+      "next": "B1"
+    },
+    {
+      "number": 108,
+      "code": "B1",
+      "title": "Een kennisbank bouwen met WeKnora",
+      "group": "Bonus: alle twaalf GitHub-projecten",
+      "file": "lessen/108.md",
+      "steps": 5,
+      "dependencies": [],
+      "inputs": [
+        "aanvulling-v13/GITHUB-WERKBOEK.md",
+        "aanvulling-v13/productbrief.md",
+        "aanvulling-v13/oefeninput/aanbod.md",
+        "aanvulling-v13/oefeninput/levering.md",
+        "aanvulling-v13/oefeninput/retour.md"
+      ],
+      "skills": [],
+      "execution": "Codex of Hermes",
+      "output": "bonus/weknora/",
+      "next": "B2"
+    },
+    {
+      "number": 109,
+      "code": "B2",
+      "title": "Browserwerk uitvoeren met BrowserSkill",
+      "group": "Bonus: alle twaalf GitHub-projecten",
+      "file": "lessen/109.md",
+      "steps": 5,
+      "dependencies": [],
+      "inputs": [
+        "aanvulling-v13/GITHUB-WERKBOEK.md",
+        "aanvulling-v13/productbrief.md",
+        "aanvulling-v13/oefeninput/browser.html"
+      ],
+      "skills": [],
+      "execution": "Codex of Hermes",
+      "output": "bonus/browserskill/",
+      "next": "B3"
+    },
+    {
+      "number": 110,
+      "code": "B3",
+      "title": "Een workflow visueel aan een klant uitleggen",
+      "group": "Bonus: alle twaalf GitHub-projecten",
+      "file": "lessen/110.md",
+      "steps": 5,
+      "dependencies": [],
+      "inputs": [
+        "aanvulling-v13/GITHUB-WERKBOEK.md",
+        "aanvulling-v13/productbrief.md"
+      ],
+      "skills": [],
+      "execution": "Codex of Hermes",
+      "output": "bonus/diagram/",
+      "next": "B4"
+    },
+    {
+      "number": 111,
+      "code": "B4",
+      "title": "Sterke beeldreferences naar je eigen product vertalen",
+      "group": "Bonus: alle twaalf GitHub-projecten",
+      "file": "lessen/111.md",
+      "steps": 5,
+      "dependencies": [],
+      "inputs": [
+        "aanvulling-v13/GITHUB-WERKBOEK.md",
+        "aanvulling-v13/productbrief.md"
+      ],
+      "skills": [],
+      "execution": "Codex of Hermes",
+      "output": "bonus/beeldreferences/",
+      "next": "B5"
+    },
+    {
+      "number": 112,
+      "code": "B5",
+      "title": "Een forecast bouwen en naast de werkelijkheid leggen",
+      "group": "Bonus: alle twaalf GitHub-projecten",
+      "file": "lessen/112.md",
+      "steps": 5,
+      "dependencies": [],
+      "inputs": [
+        "aanvulling-v13/GITHUB-WERKBOEK.md",
+        "aanvulling-v13/productbrief.md",
+        "aanvulling-v13/oefeninput/forecast.csv"
+      ],
+      "skills": [],
+      "execution": "Codex of Hermes",
+      "output": "bonus/forecast/",
+      "next": "B6"
+    },
+    {
+      "number": 113,
+      "code": "B6",
+      "title": "Een repository gericht laten onderzoeken",
+      "group": "Bonus: alle twaalf GitHub-projecten",
+      "file": "lessen/113.md",
+      "steps": 5,
+      "dependencies": [],
+      "inputs": [
+        "aanvulling-v13/GITHUB-WERKBOEK.md",
+        "aanvulling-v13/productbrief.md"
+      ],
+      "skills": [],
+      "execution": "Codex of Hermes",
+      "output": "bonus/security-review/",
+      "next": null
+    }
+  ]
+}

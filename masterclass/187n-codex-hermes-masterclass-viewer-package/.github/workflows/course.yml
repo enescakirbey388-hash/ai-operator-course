@@ -1,0 +1,30 @@
+name: Course checks
+on:
+  push:
+    branches: [main, interactive-lessons]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  course:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Fetch exact revision without hooks or submodules
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COURSE_REPO: ${{ github.repository }}
+          COURSE_COMMIT: ${{ github.sha }}
+        run: |
+          gh repo clone "$COURSE_REPO" course -- --no-checkout
+          git -C course -c core.hooksPath=/dev/null checkout --detach "$COURSE_COMMIT"
+      - name: Validate lessons and portable progress scenarios
+        shell: bash
+        run: |
+          cd course
+          python -m unittest discover -s tests -v

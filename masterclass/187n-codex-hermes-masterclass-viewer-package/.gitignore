@@ -1,0 +1,16 @@
+# Local settings and generated work
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+outputs/
+*.log
+.lio/
+studentenpakket-v16/context/bedrijf.md
+studentenpakket-v16/context/merkstem.md

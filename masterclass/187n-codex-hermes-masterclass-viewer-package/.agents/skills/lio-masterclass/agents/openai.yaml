@@ -1,0 +1,6 @@
+interface:
+  display_name: "LIO · Masterclass"
+  short_description: "113 lessen: samen bouwen in Codex en Hermes"
+  default_prompt: "Gebruik $lio-masterclass en start de masterclass."
+policy:
+  allow_implicit_invocation: true
